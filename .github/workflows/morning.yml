@@ -11,7 +11,7 @@ on:
     - master
   schedule:
     # GitHub Actions 使用的是UTC时间，比北京时间慢八个小时
-    - cron: '0 0 * * *'
+    - cron: '59 23 * * *'
 
 jobs:
   Morning:
